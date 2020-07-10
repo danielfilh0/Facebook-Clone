@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    min-height: 110px;
+    background: white;
+    .container {
+        padding: 20px 2%;
+    }
+    a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #516da5;
+        margin: 0 4px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .options {
+        a {
+            margin: 0 6px;
+        }
+    }
+    p {
+        color: #7d8690;
+        font-size: 11px;
+        margin: 20px 0;
+    }
+}

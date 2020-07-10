@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica','Arial',sans-serif; }
+
+html, body {
+  height: 100%; }
+
+.container {
+  max-width: 1080px;
+  padding: 0 3%;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.w50 {
+  width: 50%; }
+
+.w100 {
+  width: 100%; }
+
+header {
+  width: 100%;
+  min-height: 85px;
+  background-color: #3b5998;
+  border-bottom: 1px solid black; }
+
+.logo {
+  font-family: 'Segoe UI';
+  float: left;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-decoration: none;
+  margin-top: 18px; }
+
+.login {
+  float: right;
+  font-size: 12px;
+  color: white;
+  margin-top: 14px; }
+  .login div.email-phone {
+    float: left; }
+  .login div.password {
+    float: left; }
+    .login div.password a {
+      display: block;
+      margin-top: 6px;
+      color: #90a9d0;
+      text-decoration: none; }
+      .login div.password a:hover {
+        text-decoration: underline; }
+  .login input[type=text], .login input[type=password] {
+    width: 150px;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-left: 3px;
+    font-size: 12px;
+    border: 1px solid black;
+    outline: none; }
+  .login div.button {
+    float: left;
+    color: white;
+    background-color: #4267b2;
+    font-weight: bold;
+    height: 22px;
+    padding: 0 5px;
+    cursor: pointer;
+    line-height: 20px;
+    border: 1px solid #37548f;
+    margin-top: 19px; }
+    .login div.button:hover {
+      background-color: #37548f; }
+
+section.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  background-color: #edf0f5; }
+
+h2, h3 {
+  color: #333333; }
+
+.call {
+  width: 50%;
+  float: left;
+  margin-top: 60px; }
+  .call h2 {
+    font-size: 28px; }
+  .call div.topics {
+    margin-top: 30px; }
+    .call div.topics p {
+      color: #333333;
+      font-weight: bold;
+      margin-bottom: 30px;
+      font-size: 17px; }
+      .call div.topics p img {
+        width: 64px;
+        position: relative;
+        top: 24px;
+        margin-right: 5px; }
+      .call div.topics p span {
+        color: #7c809a;
+        font-size: 15px;
+        font-weight: normal; }
+
+.sign_up {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+  padding-left: 120px; }
+  .sign_up h2 {
+    font-size: 36px; }
+  .sign_up h3 {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 28px; }
+  .sign_up form {
+    margin-top: 20px; }
+    .sign_up form input[type=text], .sign_up form input[type=password] {
+      padding: 10px;
+      margin-bottom: 8px;
+      border: 1px solid #cfd6e3;
+      border-radius: 7px;
+      outline: none;
+      font-size: 15px; }
+    .sign_up form select {
+      width: 70px;
+      padding: 5px 0; }
+    .sign_up form label {
+      font-size: 18px;
+      margin-right: 12px;
+      color: #333333; }
+  .sign_up h5 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #979fbb; }
+  .sign_up p.business {
+    color: #746f69;
+    font-size: 13px;
+    font-weight: bold; }
+  .sign_up p.terms {
+    margin: 15px 0;
+    color: #7d8690;
+    font-size: 11px; }
+  .sign_up a {
+    text-decoration: none;
+    color: #5989c0;
+    line-height: 1.4em; }
+    .sign_up a:hover {
+      text-decoration: underline; }
+  .sign_up div.button {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #61a04e;
+    border: 1px solid #315525;
+    border-radius: 7px;
+    cursor: pointer; }
+    .sign_up div.button:hover {
+      background-color: #70b459; }
+
+hr {
+  background-color: white;
+  margin: 15px 0; }
+
+footer {
+  width: 100%;
+  min-height: 110px;
+  background: white; }
+  footer .container {
+    padding: 20px 2%; }
+  footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #516da5;
+    margin: 0 4px; }
+    footer a:hover {
+      text-decoration: underline; }
+  footer .options a {
+    margin: 0 6px; }
+  footer p {
+    color: #7d8690;
+    font-size: 11px;
+    margin: 20px 0; }
+
+@media screen and (max-width: 1080px) {
+  input[type=text] {
+    width: 100%; } }
+@media screen and (max-width: 1024px) {
+  div.call, div.sign_up {
+    width: 100%;
+    padding-left: 0; }
+
+  p.business {
+    margin-bottom: 15px; } }
+@media screen and (max-width: 768px) {
+  .logo, .login {
+    width: 100%;
+    padding-left: 15%; } }
+
+/*# sourceMappingURL=style.css.map */

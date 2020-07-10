@@ -1,0 +1,112 @@
+section.main {
+    width: 100%;
+    min-height: calc(100vh - 85px);
+    background-color: #edf0f5;
+}
+h2, h3 {
+    color: #333333;
+}
+.call {
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+    h2 {
+        font-size: 28px;
+    }
+    div.topics {
+        margin-top: 30px;
+        p {
+            color: #333333;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 17px;
+            img {
+                width: 64px;
+                position: relative;
+                top: 24px;
+                margin-right: 5px;
+            }
+            span {
+                color: #7c809a;
+                font-size: 15px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+.sign_up {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 120px;
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 19px;
+        font-weight: normal;
+        line-height: 28px;
+    }
+    form {
+        margin-top: 20px;
+        input[type=text], input[type=password] {
+            padding: 10px;
+            margin-bottom: 8px;
+            border: 1px solid #cfd6e3;
+            border-radius: 7px;
+            outline: none;
+            font-size: 15px;
+        }
+        select {
+            width: 70px;
+            padding: 5px 0;
+        }
+        label {
+            font-size: 18px;
+            margin-right: 12px;
+            color: #333333;
+        }
+    }
+    h5 {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        color: #979fbb;
+    }
+    p.business {
+        color: #746f69;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    p.terms {
+        margin: 15px 0; 
+        color: #7d8690;
+        font-size: 11px;
+    }
+    a {
+        text-decoration: none;
+        color: #5989c0;
+        line-height: 1.4em;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    div.button {
+        color: white;
+        font-size: 19px;
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px 60px;
+        background-color: #61a04e;
+        border: 1px solid #315525;
+        border-radius: 7px;
+        cursor: pointer;
+        &:hover {
+            background-color: #70b459;
+        }
+    }
+}
+hr {
+    background-color: white;
+    margin: 15px 0;
+}

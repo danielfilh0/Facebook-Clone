@@ -1,0 +1,20 @@
+@media screen and (max-width: 1080px) {
+    input[type=text] {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    div.call, div.sign_up {
+        width: 100%;
+        padding-left: 0;
+    }
+    p.business {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo, .login {
+        width: 100%;
+        padding-left: 15%;
+    }
+}

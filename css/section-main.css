@@ -1,0 +1,95 @@
+section.main {
+  width: 100%;
+  min-height: calc(100vh - 85px);
+  background-color: #edf0f5; }
+
+h2, h3 {
+  color: #333333; }
+
+.call {
+  width: 50%;
+  float: left;
+  margin-top: 60px; }
+  .call h2 {
+    font-size: 28px; }
+  .call div.topics {
+    margin-top: 30px; }
+    .call div.topics p {
+      color: #333333;
+      font-weight: bold;
+      margin-bottom: 30px;
+      font-size: 17px; }
+      .call div.topics p img {
+        width: 64px;
+        position: relative;
+        top: 24px;
+        margin-right: 5px; }
+      .call div.topics p span {
+        color: #7c809a;
+        font-size: 15px;
+        font-weight: normal; }
+
+.sign_up {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+  padding-left: 120px; }
+  .sign_up h2 {
+    font-size: 36px; }
+  .sign_up h3 {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 28px; }
+  .sign_up form {
+    margin-top: 20px; }
+    .sign_up form input[type=text], .sign_up form input[type=password] {
+      padding: 10px;
+      margin-bottom: 8px;
+      border: 1px solid #cfd6e3;
+      border-radius: 7px;
+      outline: none;
+      font-size: 15px; }
+    .sign_up form select {
+      width: 70px;
+      padding: 5px 0; }
+    .sign_up form label {
+      font-size: 18px;
+      margin-right: 12px;
+      color: #333333; }
+  .sign_up h5 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #979fbb; }
+  .sign_up p.business {
+    color: #746f69;
+    font-size: 13px;
+    font-weight: bold; }
+  .sign_up p.terms {
+    margin: 15px 0;
+    color: #7d8690;
+    font-size: 11px; }
+  .sign_up a {
+    text-decoration: none;
+    color: #5989c0;
+    line-height: 1.4em; }
+    .sign_up a:hover {
+      text-decoration: underline; }
+  .sign_up div.button {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #61a04e;
+    border: 1px solid #315525;
+    border-radius: 7px;
+    cursor: pointer; }
+    .sign_up div.button:hover {
+      background-color: #70b459; }
+
+hr {
+  background-color: white;
+  margin: 15px 0; }
+
+/*# sourceMappingURL=section-main.css.map */
